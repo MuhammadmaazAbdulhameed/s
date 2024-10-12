@@ -49,6 +49,7 @@ return setTime({hr:updHr, min:updMin, sec:updSec, milSec:updMilSec})
     <>
     
     <div className='container'>
+        <h1>Stop Watch</h1>
         <h1> 
             {time.hr + ":" + time.min + ":" + time.sec + ":" + time.milSec} 
         </h1>
